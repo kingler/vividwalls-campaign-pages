@@ -1,0 +1,49 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a background color to the navigation and footer */
+  #top-nav, #footer {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style the navigation links */
+  #top-nav ul {
+    padding: 14px 20px;
+    text-align: center;
+  }
+  
+  #top-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #top-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the 3D model container */
+  #3d-model {
+    height: 600px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #model-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: #ddd; /* Placeholder background */
+  }
+  
+  /* Style the footer */
+  #footer {
+    padding: 14px 20px;
+    text-align: center;
+  }
+  
